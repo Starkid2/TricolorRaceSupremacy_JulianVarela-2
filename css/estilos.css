@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@font-face { 
+    font-family: "OpenSans"; 
+    src: url("../fonts/static/OpenSans/OpenSans-Bold.ttf"); 
+} 
+p { 
+    font-family: "Mystery Quest", cursive; 
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.ulnav{
+    
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.icono{
+    padding-bottom: auto;
+}
+
+.nav-link{
+    font-family: 'Mystery Quest', cursive ;
+    font-size: 150%;
+
+}
+/*Para hacer modificaciones que no requieran de BS*/
+.headermod{
+    height: 60%;
+    background-color: #E0A86E;
+
+}
+
