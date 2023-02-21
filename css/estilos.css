@@ -32,8 +32,63 @@ p {
 }
 /*Para hacer modificaciones que no requieran de BS*/
 .headermod{
+    top: 0px;
+    position: sticky;
+    background-color: rgba(240, 248, 255, 0.647);
     height: 60%;
-    background-color: #E0A86E;
+    
 
 }
 
+.body{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("../assets/images/background.jpg");
+    background-repeat: no-repeat;/*no repite la imagen*/
+    background-size: cover;/*la imagen se estira para entrar en el contenedor*/
+    background-position: center;/*si la imagen no ocupa todo el contenedor se puede centrar*/
+    background-attachment: fixed;/*esto hace que la imagen siempre este fija, y el contenido se mueva*/
+}
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: 70vw 30vw;
+    grid-template-rows: 100vh;
+    gap: 10px;
+
+}
+
+.texto{
+    font-family: 'Mystery Quest', cursive ;
+    color: aliceblue;
+    font-size: 2rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.imagenes{
+    
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.titulotexto{
+    color: aliceblue;
+    display:flex;
+    justify-content: center;
+}
+
+.main{
+   
+    
+    
+}
+
+.footer{
+    background-color: blue;
+    height: 100%;
+}
