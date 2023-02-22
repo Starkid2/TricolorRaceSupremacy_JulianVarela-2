@@ -129,3 +129,84 @@ p {
     margin: auto;
     bottom: 16px;
 }
+
+/*nosotros.html*/
+
+.mainnosotros{
+    background-color: beige;
+}
+
+.titulotextonosotros{
+    color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+
+}
+.textomotivos{
+    text-align: center;
+    
+}
+
+.parrafomotivos{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    text-align: justify;
+}
+
+.video{
+
+    display:flex;
+    flex-direction: column;
+    border-width: 150px;
+    margin-left: 20vh;
+    background-color: rgba(0, 0, 0, 0.319);
+    width: 50%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+iframe{
+    padding-bottom: 10px;
+}
+
+/*adopta*/
+
+.HeaderModAdopta{
+
+    width:auto;
+    height: 96px;
+
+}
+
+.MainAdopta{
+    background-color: beige;
+}
+.card{
+    height: 30vh;
+    width: 70vh;
+    
+}
+
+.card-img{
+    height: 30vh;
+    width: 70vh;
+    filter: brightness(50%);
+}
+
+.card-text{
+    padding-top: 80px;
+}
+
+.adopcion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.textoadopta{
+    padding-left: 20px;
+}
+    }
