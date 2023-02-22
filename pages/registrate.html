@@ -1,41 +1,57 @@
 <!DOCTYPE html> 
 <html lang="es"> 
     
-    <head> 
-         <meta charset="UTF-8">
-         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Registrate / PreEntrega1Varela</title>
-         <link rel="icon" href="../assets/images/icono.ico" type="image/x-icon">
-         <link rel="Stylesheet" href="../css/estilos.css">
-    </head>
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index / PreEntrega2Varela</title>
+    <link rel="stylesheet" href="../css/hover-min.css" media="all">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="Stylesheet" href="../css/estilos.css">
+    <link rel="icon" href="../assets/images/icono.ico" type="image/x-icon">
+</head>
     <body>
-        <header class="cabecera">
-            <img src="../assets/images/Logo.png" alt="Logo" width="100">
-            <nav class="navegacion">
-                <ul>
-                        <li>
-                        <a class="linknav" href="../index.html"> Inicio</a>
-                        </li>
-                        <li>
-                        <a class="linknav" href="./nosotros.html"> Nosotros</a>
-                        </li>
-                        <li>
-                        <a class="linknav" href="./adopta.html"> Adopta</a>
-                        </li>
-                        <li>
-                        <a class="linknav" href="./muro.html"> Muro de Img</a>
-                        </li>
-                        <li>
-                        <a class="linknav" href="#"> Registrate</a>
-                        </li>
-                </ul>
-            </nav>
-
+        <header class="headermod">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                  <a class="navbar-brand icono hvr-grow" href="#"> <img src="../assets/images/Logo.png" width="70px"  alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item hvr-grow">
+                        <a class="nav-link" href="./nosotros.html">Motivos</a>
+                      </li>
+                      <li class="nav-item hvr-grow">
+                        <a class="nav-link " href="./adopta.html">Adopta</a>
+                      </li>
+                      <li class="nav-item hvr-grow">
+                        <a class="nav-link" href="./muro.html">Muro de Img</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active hvr-grow dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Cuenta
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+                          <li><a class="dropdown-item" href="./registrate.html">Crear Cuenta</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main>
-            <h1>Registrate para enterarte de todo</h1>
-            <div>
+        <section class="contenedorregis">
+        <main class="container-fluid mainregis">
+           
+            <div class="formulario">
+                <h1>Registrate para enterarte de todo!</h1>
                 <form action="">
                     <div>
                     <label for="nombre"></label>
@@ -53,11 +69,15 @@
                 </form>
             </div>
         </main>
-        
-        <footer>
-            <p>Todos los derechos reservados</p>
-            <p>Instagram: TSR</p>
-            <p>Facebook: TSR</p>
-            <p>Youtube: TSR</p>
-        </footer>
+    </section>
+        <footer class="footer footerregis">
+            <div class="footertexto">
+              <img src="../assets/images/Logo.png" width="70px"  alt="logo">
+            <p>Todos los derechos reservados</p> 
+            <p>Instagram: TSR <img src="../assets/images/instagram_f_icon-icons.com_65485.png" alt="" height="30px"></p>
+            <p>Facebook: TSR  <img src="../assets/images/FB_icon-icons.com_65484.png" alt="" height="30px"></p>
+            <p>Youtube: TSR   <img src="../assets/images/YOUTUBE_icon-icons.com_65487.png" alt="" height="30px"></p>
+            </div>
+          </footer>
+          <script src="../jv/bootstrap.bundle.min.js"></script>
     </body>
