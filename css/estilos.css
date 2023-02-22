@@ -55,40 +55,77 @@ p {
 .grid{
     
     display: grid;
-    grid-template-columns: 70vw 30vw;
-    grid-template-rows: 100vh;
+    grid-template-columns: 70vw 20vw;
+    grid-template-rows: 60vh;
     gap: 10px;
 
 }
 
 .texto{
+    padding-left: 220px;
     font-family: 'Mystery Quest', cursive ;
     color: aliceblue;
     font-size: 2rem;
     grid-column: 1/2;
     grid-row: 1/2;
+    text-align: justify;
 
 }
 
 .imagenes{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     grid-column: 2/3;
     grid-row: 1/2;
+    align-items:center;
+    justify-content:center;
+    padding-right: 25px;
 }
 
+.main{
+
+}
 .titulotexto{
     color: aliceblue;
     display:flex;
     justify-content: center;
 }
 
-.main{
-   
-    
-    
+.footer{
+    display: flex;
+    flex-direction: row;
+
+}
+.footertexto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(174, 166, 88);
+   height: 5%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
-.footer{
-    background-color: blue;
-    height: 100%;
+.card-group{
+    display: flex;
+    gap: 10px;
+    height: 60vh;
+    width: 70%;
+}
+
+/*Hecho para poder justificar las cartas*/
+.espaciocartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-img-top{
+    width: 60%;
+    height: 40%;
+    display: block;
+    margin: auto;
+    bottom: 16px;
 }
